@@ -42,9 +42,13 @@ background: #bdbdbd;
 .titlePrinci{
 position: absolute; 
 bottom: 30px;
- color: rgb(0, 0, 0);
+ 
 }
-
+.promo{
+font-size: 80px;
+color: #7A1F2B;
+font-family: var(--vibes);
+}
 .grid {
   display: grid;
   grid-template-columns: 2.2fr 2.8fr 2.9fr;
@@ -357,20 +361,42 @@ font-size: 18px;
 
 
 }
+@media only screen and (max-width: 1800px){
 
 
-@media only screen and (max-width: 1353px){
+.info1{
+  
+  width: auto;
+margin-left: 170px;
+
+}
+.grid{
+display: grid;
+grid-template-columns: 1fr  1fr 1fr;
+}
+.piz{
+
+  object-fit: cover;
+
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 1300px){
 
 
 .titlePrinci{
 position: absolute; 
 top: -280px;
- color: rgb(0, 0, 0);
+ 
+border: red 2px solid;
 }
 
 
 
 .grid{
+  display: grid;
 grid-template-columns: 1fr 1fr;
 }
 
@@ -396,7 +422,6 @@ position: absolute;
 
 .info1{
   margin-left: 100px;
-  width: 500px;
 position: static;
 height: 507px;
 }
