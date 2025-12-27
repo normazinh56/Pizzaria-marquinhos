@@ -40,7 +40,8 @@ background: #bdbdbd;
 /*banner princi */
 
 .titlePrinci{
-position: absolute; bottom: -20px;
+position: absolute; 
+bottom: 30px;
  color: rgb(0, 0, 0);
 }
 
