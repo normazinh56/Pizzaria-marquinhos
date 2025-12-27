@@ -34,7 +34,7 @@ h1{
 margin-bottom: 80px;
 }
 
-.tittle, h2{
+ .tittle {
   font-family: "Open Sans", sans-serif;
 color: #7A1F2B;
 justify-self: center;
@@ -55,7 +55,6 @@ font-size: 60px;
     padding: 40px;
     flex-wrap: wrap;
     margin-top: auto;
-    border: 2px solid red;
 }
 .cardapios {
     display: flex;
