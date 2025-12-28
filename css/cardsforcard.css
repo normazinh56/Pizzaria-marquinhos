@@ -140,13 +140,28 @@ flex-direction: column;
 }
 
 .pizzada{
-width: 120px;
+width: auto;
 
 }
 
 .cardapio{
-display: flex;
-flex-direction: row;
 }
+.card{
+background-color: white;
+height: auto;
+}
+.card h3{
+font-size: 15px;
+}
+.wha{
+width: 50px;
+bottom: 16px;
+left: -15px;
 
+}
+.now{
+  position: absolute;
+bottom: -60px;
+left: -15px;
+}
 }
