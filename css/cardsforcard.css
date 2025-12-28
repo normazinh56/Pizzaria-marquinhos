@@ -144,10 +144,9 @@ width: auto;
 
 }
 
-.cardapio{
-}
+
 .card{
-background-color: white;
+background-color: white !important;
 height: auto;
 }
 .card h3{
