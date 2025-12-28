@@ -70,8 +70,8 @@ font-size: 60px;
 
 
 .card {
-       background-color: white !important; /* Garantir que o fundo seja branco */
-    color: black !important; /* Garantir que a cor do texto seja preta */
+       background-color: rgb(240, 238, 238) !important;
+    color: black !important; 
     width: 240px;
     padding: 15px;
     border-radius: 12px;
