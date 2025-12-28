@@ -2,9 +2,6 @@
 margin-top: 0px;
 
 }
-* {
-  -webkit-text-fill-color: initial !important;
-}
 
 html, body {
   max-width: 100%;
@@ -32,9 +29,7 @@ background: #bdbdbd;
 
 }
 
-html {
-  color-scheme: light !important;
-}
+
 
 h1{
 margin-bottom: 80px;
@@ -76,7 +71,7 @@ font-size: 60px;
 
 
 .card {
-    background-color: #ffffff !important;
+    background: white;
     color: black;
     width: 240px;
     padding: 15px;
@@ -135,13 +130,6 @@ font-size: 16px;
     left: 20px;
     position: absolute;
 }
-.card,
-.cardespe,
-.tep3 {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  filter: none !important;
-}
 
 
 /* Smartphones (600px para baixo) */
@@ -159,7 +147,7 @@ width: auto;
 
 
 .card{
-background-color: white !important;
+background-color: white;
 height: auto;
 }
 .card h3{
