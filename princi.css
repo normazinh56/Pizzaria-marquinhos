@@ -392,7 +392,7 @@ grid-template-columns: 1fr  1fr 1fr;
 position: absolute; 
 top: -280px;
  
-border: red 2px solid;
+
 }
 
 
@@ -416,7 +416,7 @@ position: absolute;
 }
 .piz{
  width: 1000px;
- border: 2px solid red;
+ 
         height: auto;
   object-fit: cover;
 
