@@ -2,6 +2,9 @@
 margin-top: 0px;
 
 }
+* {
+  -webkit-text-fill-color: initial !important;
+}
 
 html, body {
   max-width: 100%;
@@ -73,7 +76,7 @@ font-size: 60px;
 
 
 .card {
-    background: white;
+    background-color: #ffffff !important;
     color: black;
     width: 240px;
     padding: 15px;
@@ -131,6 +134,13 @@ font-size: 16px;
     width: 60px;
     left: 20px;
     position: absolute;
+}
+.card,
+.cardespe,
+.tep3 {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  filter: none !important;
 }
 
 
