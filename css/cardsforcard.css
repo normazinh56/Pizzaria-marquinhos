@@ -70,8 +70,8 @@ font-size: 60px;
 
 
 .card {
-    background: white;
-    color: black;
+       background-color: white !important; /* Garantir que o fundo seja branco */
+    color: black !important; /* Garantir que a cor do texto seja preta */
     width: 240px;
     padding: 15px;
     border-radius: 12px;
@@ -146,7 +146,6 @@ width: auto;
 
 
 .card{
-background-color: white !important;
 height: auto;
 }
 .card h3{
