@@ -255,12 +255,15 @@ grid-template-columns: 1fr;
   
    .zip {
   position: fixed;
-  right: 50px;
+          right: -8px;
     bottom: calc(20px + env(safe-area-inset-bottom));
   transform: translateY(-10px); /* sobe visualmente */
   z-index: 9999;
 }
-  
+.wha{
+left: 30px;
+width: 40px;
+}  
 
 .caixasn1, .caixasn2{
 display: flex;
@@ -271,6 +274,7 @@ flex-direction: column;}
 .caixas{
 height: auto;
 margin-left: 0px;
+margin-right: 20px;
 width: 100%;}
 
 
