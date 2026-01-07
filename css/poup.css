@@ -14,7 +14,6 @@ position: fixed;
 width: 200px;
 left: 315px;
 bottom: 127px;
-z-index: 99999999999999999;
 }
 .barss{
 background-color: white;
@@ -24,19 +23,25 @@ border: 1px solid transparent;
 }
 .meuniinpoup{
   width: 100px;
-  background-color: red;
+  background-color:var(--fundo);
   left: -110px;
   position: absolute;
   bottom: 80px;
   display: flex;
   flex-direction: column;
-
+display: none;
 }
-.meuniinpoup i a{
+.itemsinpoup{
+
 text-decoration: none;
 color: black;
+
 }
-.meuniinpoup i{
-  
-  padding: 5px;
+.buttonpoup{
+background-color: transparent;
+border: transparent solid;
+margin-left: -5px;
+}
+.meuniinpoup.active{
+ display: block;
 }
