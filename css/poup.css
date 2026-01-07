@@ -1,0 +1,42 @@
+:root{
+--vinho: #7A1F2B;
+/* letra cursiva*/
+--vibes:'Great Vibes', cursive;
+--cinza: rgb(70, 69, 69);
+--fundo: #bdbdbd;
+}
+
+
+
+
+.poup{
+position: fixed;
+width: 200px;
+left: 315px;
+bottom: 127px;
+z-index: 99999999999999999;
+}
+.barss{
+background-color: white;
+width: 24px;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+.meuniinpoup{
+  width: 100px;
+  background-color: red;
+  left: -110px;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+
+}
+.meuniinpoup i a{
+text-decoration: none;
+color: black;
+}
+.meuniinpoup i{
+  
+  padding: 5px;
+}
