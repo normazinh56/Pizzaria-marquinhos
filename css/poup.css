@@ -10,6 +10,54 @@
 
 
 .poup{
+   position: fixed;
+width: 200px;
+right: -70px;
+bottom: 197px;
+}
+.barss{
+background-color: white;
+width: 24px;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+.meuniinpoup{
+   width: 100px;
+  background-color:var(--fundo);
+  left: -110px;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+display: none;
+
+}
+
+.meuniinpoup a:hover{
+
+opacity: 0.5;
+
+}
+
+.itemsinpoup{
+
+text-decoration: none;
+color: black;
+
+}
+.buttonpoup{
+background-color: transparent;
+border: transparent solid;
+margin-left: -5px;
+cursor: pointer;
+}
+.meuniinpoup.active{
+   display: flex;
+}
+
+@media only screen and (max-width: 630px) {
+
+.poup{
 position: fixed;
 width: 200px;
 left: 315px;
@@ -44,4 +92,6 @@ margin-left: -5px;
 }
 .meuniinpoup.active{
  display: block;
+}
+
 }
