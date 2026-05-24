@@ -15,12 +15,12 @@ html, body {
 --cinza: rgb(70, 69, 69);
 --fundo: #bdbdbd;
 --darkreader-background-bdbdbd: #3d4245;
---darkreader-background-fdfbfb: #241212;
+--background-fdfbfb: #241212;
 --caixas: rgb(253, 251, 251);
---darkreader-background-d6d4d4: #303436;
+--background-d6d4d4: #303436;
 --darkreader-text-333333: #c8c3bc;
 --darkreader-background-bdbdbd: #3d4245;
---darkreader-background-e9e4e4: #26292b;
+--background-e9e4e4: #26292b;
 }
 
 
@@ -106,7 +106,7 @@ justify-content: center;
 
 /*parte das caixas de reconhe e tals */
 .certifi{
-background-color: var(--darkreader-background-e9e4e4);
+background-color: var(--background-e9e4e4);
 height: auto;
 width: 100%;
 
@@ -152,7 +152,7 @@ color: grey ;
 
 
 .caixas{
-  background-color: var(--darkreader-background-fdfbfb);
+  background-color: var(--background-fdfbfb);
 height: 400px;
 width: 400px;
 margin-left: 50px;
@@ -219,7 +219,7 @@ flex-direction: row;
 width: 100%;
 margin-left: 0px;
 margin-top: 20px;
-background-color: var(--darkreader-background-d6d4d4);
+background-color: var(--background-d6d4d4);
 
 
 }
@@ -235,7 +235,7 @@ flex-direction: row;
 width: 100%;
 margin-left: 0px;
 margin-top: 20px;
-background-color: var(--darkreader-background-d6d4d4);
+background-color: var(--background-d6d4d4);
 }
 .caixinhas2:hover{
   transition: 0.3s;
@@ -248,7 +248,7 @@ background-color: var(--darkreader-background-d6d4d4);
   width: 100%;
   margin-left: 0px;
   margin-top: 20px;
-  background-color: var(--darkreader-background-d6d4d4);
+  background-color: var(--background-d6d4d4);
 
 }
 .caixinhas3:hover{
@@ -276,6 +276,7 @@ margin-top: 7px;
 .mob{
 display: block;
 justify-items: center;
+background-color: var(--darkreader-background-bdbdbd);
 }
 
 body{
@@ -369,7 +370,7 @@ width: 50px;
 
 .certifi{
  width: 420px;
-
+height: 820px;
 }
 
 .btras1{
