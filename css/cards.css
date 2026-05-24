@@ -1,0 +1,140 @@
+body{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+:root{
+    --sim: radial-gradient(circle at top right, rgba(255, 77, 45, .35), transparent 34%), linear-gradient(135deg, #190903, #421507);
+}
+.maispedidos{
+    background: radial-gradient(circle at top right, rgba(255, 77, 45, .35), transparent 34%), linear-gradient(135deg, #190903, #421507);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 15%;
+width: 15%;
+height: 100%;
+justify-content: center;
+
+}
+
+.imgitem{
+width: 60%;
+}
+.deco{
+    transform: rotate(2.9deg);
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+
+.botao{
+    /*item*/
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 999px;
+    padding: 20px;
+    display: flex;
+    color: #2a0f05;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+}
+.maincards{
+background-color: #140803;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.mainitemcards{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+    flex-direction: column;
+
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemcards{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;    
+    flex-wrap: wrap;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    background-color: #2a0f05;
+    width: 20%;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    height: 450px;
+}
+.cards:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.imgcard{
+    width: 100%;
+}
+.cardimg{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+}
+.smallitems{
+    width: 100%;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.tag{
+    margin-right: 70%;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 208, 91, .14);
+    border: 1px solid transparent;
+    color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.pedido{
+    background-color: red;
+    color: black;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.price{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

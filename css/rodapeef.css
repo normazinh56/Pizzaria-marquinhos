@@ -1,99 +1,35 @@
 /* Cabeçalho */
+*{
+margin: 0px;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
 .header {
+    
     height: 56px;
     opacity: 0.7;
-  
-   
     padding: 20px;
-    background-color: black;
+    background: rgba(16, 7, 4, .92);
     border-bottom: 3px solid #d4a017;
-
-width: auto;
-
-border: #ff0e0e solid 4px;
-display: flex;
-
+    width: auto;
+    border: #ff0e0e solid 4px;
+    display: flex;
 }
 header a{
 
 text-decoration: none;
 }
-
-.botoes{
-font-size: 20px;
-color: #d4a017;
-
-}
-.botoes:hover{
-    opacity: 0.4;
-}
-.logo {
+.logo{
     width: 60px;
     margin-right: 20px;
 }
-
-
-
-.titulo {
-    margin: 0;
-    font-size: 22px;
-    color: #f8d47c;
-}
-
-
-
-.menu .btn {
-    color: #f8d47c;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 2px;
-    transition: 0.3s;
- 
-}
-
-.menu .btn:hover {
-    background: #d4a017;
-    color: #000;
-}
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* espaço entre elementos */
-}
-
-.who{
-color: white;
-text-decoration: none;
-border-radius: 5px;
-transition: 0.3s;
-padding: 10px 15px;
-}
-.who:hover{
-background-color: #08f100;
-
-
-}
-
-
-/* seria o que estaria junto no header*/
-
-.casinhas {
-    
-margin-left: 200px;
-margin-right: 10px;
-}
-
-.casinhas a{
-font-size: 20px;
-}
-
-
-
-/* cabeçalho acabo aqui*/
-
-
-
-
 
 
 
