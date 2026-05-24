@@ -14,6 +14,13 @@ html, body {
 --vibes:'Great Vibes', cursive;
 --cinza: rgb(70, 69, 69);
 --fundo: #bdbdbd;
+--darkreader-background-bdbdbd: #3d4245;
+--darkreader-background-fdfbfb: #241212;
+--caixas: rgb(253, 251, 251);
+--darkreader-background-d6d4d4: #303436;
+--darkreader-text-333333: #c8c3bc;
+--darkreader-background-bdbdbd: #3d4245;
+--darkreader-background-e9e4e4: #26292b;
 }
 
 
@@ -21,14 +28,13 @@ body{
       box-sizing: border-box;
   /*font-family: "Open Sans", sans-serif;*/
 position: relative;
-background: #bdbdbd;
+background: var(--darkreader-background-bdbdbd);
    margin: 0;
     padding: 0;
  font-family: 'Inter', sans-serif;
             font-size: 16px;
             line-height: 1.7;
-            color: #333;
-
+            color: var(--darkreader-text-333333);
 }
 
 
@@ -100,7 +106,7 @@ justify-content: center;
 
 /*parte das caixas de reconhe e tals */
 .certifi{
-background-color: rgb(233, 228, 228);
+background-color: var(--darkreader-background-e9e4e4);
 height: auto;
 width: 100%;
 
@@ -146,14 +152,14 @@ color: grey ;
 
 
 .caixas{
-  background-color: rgb(253, 251, 251);
+  background-color: var(--darkreader-background-fdfbfb);
 height: 400px;
 width: 400px;
 margin-left: 50px;
 margin-top: 60px;  
 
 box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-border: 2px solid white;
+border: 2px solid #34383a;
 border-radius: 10px;
 }
 
@@ -189,7 +195,6 @@ font-family: var(--vibes);
 }
 .cardespe{
 justify-items: center;
-background-color: #ffffff;
 }
 
 .saiba{
@@ -209,12 +214,12 @@ border-radius: 50px;
 .caixotes1{
   
   display: flex;
-  border: 2px solid rgb(243, 242, 242);
+  border: 2px solid transparent;
 flex-direction: row;
 width: 100%;
 margin-left: 0px;
 margin-top: 20px;
-background-color: #d6d4d4;
+background-color: var(--darkreader-background-d6d4d4);
 
 
 }
@@ -225,12 +230,12 @@ background-color: #d6d4d4;
 }
 .caixinhas2{
 display: flex;
-  border: 2px solid rgb(243, 242, 242);
+  border: 2px solid transparent;
 flex-direction: row;
 width: 100%;
 margin-left: 0px;
 margin-top: 20px;
-background-color: #d6d4d4;
+background-color: var(--darkreader-background-d6d4d4);
 }
 .caixinhas2:hover{
   transition: 0.3s;
@@ -238,12 +243,12 @@ background-color: #d6d4d4;
 }
 .caixinhas3{
   display: flex;
-  border: 2px solid rgb(243, 242, 242);
+  border: 2px solid transparent;
   flex-direction: row;
   width: 100%;
   margin-left: 0px;
   margin-top: 20px;
-  background-color: #d6d4d4;
+  background-color: var(--darkreader-background-d6d4d4);
 
 }
 .caixinhas3:hover{
