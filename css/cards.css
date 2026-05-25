@@ -35,7 +35,12 @@ width: 60%;
     border: 1px solid transparent;
     border-radius: 9px;
 }
+.deco:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    transform: rotate(360deg);
 
+}
 .botao{
     /*item*/
     background-color: yellow;
@@ -129,7 +134,65 @@ justify-content: center;
     display: flex;
     align-items: center;
 }
+.titlepedido1{
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+@media only screen and (max-width: 599px) {
+.imgitem{
+width: 100%;
+}
+.deco{
+    width: 70%;
+margin-bottom: 20px;
+transform: rotate(0deg);    
+margin-left: 55px;
+}
+.maispedidos{
+    display: flex;
+    flex-direction: column;
+}
+.titlepedido1{
+    font-size: 70px;
+    display: flex;
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30%;
+}
+.botao{
+    width: 25%;
+    margin-left: 95px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+    .itemcards{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    width: 85%;
+}
+.smallitems{
+
+}
+.tag{
+}
+}
 
 
 

@@ -111,9 +111,9 @@ text-decoration: none;
   will-change: transform;
 
 }
-.zip img:hover{
-border: #00ff4c solid 5px;
-border-radius: 10px;
+.wha:hover{
+border: #00ff4c solid 10px;
+border-radius: 40px;
 }
 
 .zip a{
