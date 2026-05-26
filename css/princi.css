@@ -26,465 +26,102 @@ html, body {
 
 body{
       box-sizing: border-box;
-  /*font-family: "Open Sans", sans-serif;*/
 position: relative;
-background: var(--darkreader-background-bdbdbd);
+font-family: Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+background-color: #fff8ef;
+;
    margin: 0;
     padding: 0;
- font-family: 'Inter', sans-serif;
             font-size: 16px;
             line-height: 1.7;
             color: var(--darkreader-text-333333);
 }
-
-
-
-
-
-
-
-/*banner princi */
-
-.titlePrinci{
-position: absolute; 
-bottom: 30px;
- 
-}
-.promo{
-font-size: 80px;
-color: #7A1F2B;
-font-family: var(--vibes);
-}
-.grid {
-  display: grid;
-  grid-template-columns: 2.2fr 2.8fr 2.9fr;
+.bannersanditems{
+height: 800px;
+width: 100%;
+background-color: antiquewhite;
+display: flex;
+  align-items: center;
 
 }
 
-
-
-
-.tudodentu{
-margin-left: 180px;
-}
-
-.info{
-  color: #fff;
-  padding: 30px 20px;
+.textandtags{
+  color: black;
+  margin-left: 5%;
+  width: 40%;
+  height: 700px;
   display: flex;
-height: 516px;
- width: 95%;
-background-color: var(--cinza)
-
+  align-items: start;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.textandtags h2{
+ font-size: clamp(2.2rem,6vw,5rem);
+  line-height: .95;
+  margin: 10px 0 20px;
+}
+.textandtags p{
+  margin-right: 78%;
+color: #6b534b;
+font-size: 20px;
 }
 
-.itemdentu{
-    margin-left: -5px;
-/*160 */
-}
-
-
-.info1{
-background: #4a4a4a;
-  color: #fff;
-  padding: 30px 20px;
-  display: flex;
-  width: 94%;
-height: 516px;
-
+.tags{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 999px;
+width: 15%;
+display: flex;
 justify-content: center;
-
-
+margin-top: 40px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
-
-
-/* cabo aqui*/
-
-
-
-
-
-/*parte das caixas de reconhe e tals */
-.certifi{
-background-color: var(--background-e9e4e4);
-height: auto;
-width: 100%;
-
-margin-top: -10px;
-
-margin-bottom: 80px;
+.link{
+  background-color: red;
 }
-
-
-.textao{
-  
-  justify-items: center;
-
-}
-.textao h1{
-    margin-bottom: 40px;
-padding: 40px 0px 0px 0px;
-}
-
-.textao p{
-font-size: 20px;
-margin-bottom: 20px;
-margin-top: 0px;  
-}
-
-
-.caixasn1{
-  
-  display: flex;
-  justify-content: center;
-}
-/* por enquanto esta sem uso "caixasn2 porque nao tem nada nela, mas ta pronta pra usaw, é a mesma coisa que a n1 mas é pra separa por divs msm*/
-.caixasn2{
-  
-  display: flex;
-  justify-content: center;
-
-}
-
-.caixas p{
-color: grey ;
-}
-
-
-.caixas{
-  background-color: var(--background-fdfbfb);
-height: 400px;
-width: 400px;
-margin-left: 50px;
-margin-top: 60px;  
-
-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-border: 2px solid #34383a;
-border-radius: 10px;
-}
-
-.caixas, p, h4{
-  margin: 10px;
-
-}
-
-.caixas, h4{
-
-color: black
-}
-
-.caixas:hover{
-transition: 0.2s;
-transform: scale(1.1);
-}
-/*cabo aqui*/
-
-
-/*cardapio especial/destaques */
-
-.mob{
-display: none;
-}
-
-.tittle{
-font-size: 60px;
-color: #7A1F2B;
-font-family: var(--vibes);
-
-
-}
-.cardespe{
-justify-items: center;
-}
-
-.saiba{
-background-color: #8B2C3A;
-border: #8B2C3A 2px solid;
-border-radius: 6px;
-padding: 6px;
-color: white;
-}
-
-.btras1{
-width: 20%;
-
-border-radius: 50px;
-}
-
-.caixotes1{
-  
-  display: flex;
-  border: 2px solid transparent;
-flex-direction: row;
-width: 100%;
-margin-left: 0px;
-margin-top: 20px;
-background-color: var(--background-d6d4d4);
-
-
-}
-.caixotes1:hover{
-  
-  transition: 0.3s;
-  transform: scale(1.01);
-}
-.caixinhas2{
+.imganditems{
+width: 30%;
+background-color: #231814;
 display: flex;
-  border: 2px solid transparent;
-flex-direction: row;
+flex-direction: column;
+padding: 10px 20px 80px;
+margin-left: 5%;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  transform: rotate(2.1deg);
+}
+.queijo{
+  border: 1px solid transparent;
+  border-radius: 30px;
 width: 100%;
-margin-left: 0px;
-margin-top: 20px;
-background-color: var(--background-d6d4d4);
 }
-.caixinhas2:hover{
-  transition: 0.3s;
-  transform: scale(1.01);
+.imganditems strong{
+  margin-top: 25px;
+  color: white;
 }
-.caixinhas3{
-  display: flex;
-  border: 2px solid transparent;
-  flex-direction: row;
+.items{
   width: 100%;
-  margin-left: 0px;
-  margin-top: 20px;
-  background-color: var(--background-d6d4d4);
-
-}
-.caixinhas3:hover{
-  transition: 0.3s;
-transform: scale(1.01);
-
-}
-.tep3{
-margin-left: 40px;
-margin-bottom: 10px;
-}
-
-.tep1{
-margin-left: 40px;
-margin-top: 7px;
-}
-/*cabo aqui */
-
-/*media quieres */
-/* Smartphones (630px para baixo) */
-@media only screen and (max-width: 630px) {
-  .cardespe{
-    height: 100px;
-  }
-.mob{
-display: block;
-justify-items: center;
-background-color: var(--darkreader-background-bdbdbd);
-}
-
-body{
-background-color: var(--fundo);
-}
-
-
-
-.grid{
-grid-template-columns: 1fr;
-}
-
-
-
-  
-   .zip {
-  position: fixed;
-          right: -8px;
-    bottom: calc(20px + env(safe-area-inset-bottom));
-  transform: translateY(-10px); /* sobe visualmente */
-  z-index: 9999;
-}
-.wha{
-left: 30px;
-width: 40px;
-}  
-
-.caixasn1, .caixasn2{
-display: flex;
-flex-direction: column;}
-
-
-
-.caixas{
-height: auto;
-margin-left: 0px;
-margin-right: 20px;
-width: 100%;
-}
-.caixas:hover{
-  transform: none;
-}
-
-.info, .info1{
-display: none;}
-
-
-.piz {
-  width: 426px;
-        height: 400px;
-  object-fit: cover;
-  display: block;}
-
-
-.hero-buttons{
-  position: absolute;
-  left: 10px;
-  bottom: 90px;
-  
-  
-}
-
-footer{
-display: flex;
-flex-direction: column;}
-
-.caixas{
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-width: auto;}
-
-header{
- width: 426px !important;
-height: auto;
-}
-
-
-header .titulo{
-margin-left: 0px;
-font-size: 20px;
-}
-header .casinhas{
-  display: none;
-
-}
-
-
-header .logo{
-width: 50px;
-
-}
-
-.certifi{
- width: 420px;
-height: 820px;
-}
-
-.btras1{
-width: 320px;
-
-}
-.caixotes1{
-display: flex;
-flex-direction: column;
-height: 390px;
-}
-.caixinhas3{
+  height: 300px;
   display: flex;
-flex-direction: column;
-        height: 430px;
-
+  flex-direction: row;
+  justify-content: center;
 }
-h2.caixinhas3{
-  font-size: 20px;
+.itemscoisas{
+  background-color: white;
+  width: 25%;
+  color: black;
+  margin-right: 20px;
+  height: 140px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-h2.tep1{
-  font-size: 10px;
+.initemscoisas p{
+  color: var(--cinza);
+  font-size: 17px;
 }
-.caixinhas2{
-    display: flex;
-flex-direction: column;
-        height: 330px;
-}
-
-
-}
-
-@media only screen and (max-width: 1184px){
-.info1 h3{
-
-font-size: 18px;
-
-
-}
-.info1 a{
-  
-  font-size: 16px;
-
-}
-
-
-}
-@media only screen and (max-width: 1800px){
-
-
-.info1{
-  
-  width: auto;
-margin-left: 170px;
-
-}
-.grid{
-display: grid;
-grid-template-columns: 1fr  1fr 1fr;
-}
-.piz{
-
-  object-fit: cover;
-
-  display: block;
-}
-
-}
-
-@media only screen and (max-width: 1300px){
-
-
-.titlePrinci{
-position: absolute; 
-top: -280px;
- 
-
-}
-
-
-
-.grid{
-  display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-.hero{
-position: relative;
-}
-
-
-.hero-buttons{
-position: absolute;
-
-}
-.info{
-  display: none;
-}
-.piz{
- width: 1000px;
- 
-        height: auto;
-  object-fit: cover;
-
-  display: block;}
-
-.info1{
-  margin-left: 100px;
-position: static;
-height: 507px;
-}
-
-
-}
-
-
-
