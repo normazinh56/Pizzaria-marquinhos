@@ -142,11 +142,37 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 3
 
 
 @media only screen and (max-width: 599px) {
+ .bannersanditems{
+  display: flex;
+  flex-direction: column;
+ }
+ .textandtags{
+margin-left: 0px;
+width: 100%;
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+display: flex;
+ }
+ .imganditems{
+width: 60%;
+    padding: 5px 20px 40px;
+    transform: rotate(0deg);
+ }
+ .tags{
+  width: 30%;
+
+ }
+ .textandtags h2{
+  margin-left: 10%;
+ }
  
- 
- 
- 
- 
+ .textandtags p{
+  margin-left: 60%;
+  display: flex;
+ }
+ .queijo{
+ }
  
  
  
