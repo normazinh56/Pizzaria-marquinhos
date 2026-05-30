@@ -158,7 +158,10 @@ display: flex;
 flex-direction: column;
 padding: 20px;
 }
-
+.promoitems:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 
 .imgdestaque{
   border-radius: 10px;
