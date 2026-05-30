@@ -1,11 +1,11 @@
 *{
-margin-top: 0px;
+  margin-top: 0px;
+  text-decoration: none;
 
 }
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 :root{
@@ -21,13 +21,14 @@ html, body {
 --darkreader-text-333333: #c8c3bc;
 --darkreader-background-bdbdbd: #3d4245;
 --background-e9e4e4: #26292b;
+--shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 
 body{
-      box-sizing: border-box;
-position: relative;
-font-family: Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-family: Inter,system-ui,-apple-system,Segoe UI,sans-serif;
 background-color: #fff8ef;
 ;
    margin: 0;
@@ -35,7 +36,7 @@ background-color: #fff8ef;
             font-size: 16px;
             line-height: 1.7;
             color: var(--darkreader-text-333333);
-}
+          }
 .bannersanditems{
 height: 800px;
 width: 100%;
@@ -104,7 +105,7 @@ width: 100%;
 }
 .items{
   width: 100%;
-  height: 300px;
+  height: 130px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -134,9 +135,75 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 3
   width: 100%;
   justify-content: center;
 }
+.promo{
+display: flex;
+flex-direction: column;
+height: 600px;
+width: 100%;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+
+}
+
+.promoitems{
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: rgb(66, 45, 4);
+  width: 15%;
+  margin-right: 20px;
+  height: 450px;
+  box-shadow: var(--shadow);
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
 
 
+.imgdestaque{
+  border-radius: 10px;
+width: 100%;
+}
 
+.precos{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.pedido{
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: 40%;
+}
+.alignitems{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+}
+
+
+.alignitems h3{
+color: yellow;
+font-size: 30px;
+text-decoration: underline;
+}
+.precoantigo{
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+}
+.fullallpromo{
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -171,9 +238,7 @@ width: 60%;
   margin-left: 60%;
   display: flex;
  }
- .queijo{
- }
- 
+
  
  
   .items{
@@ -181,7 +246,7 @@ width: 60%;
     flex-direction: column;
     margin: 100px;
     width: 100%;
-    height: 600px;
+    height: 280px;
   }
   .allitems{
     align-items: center;
@@ -200,4 +265,17 @@ margin-bottom: 20px;
 display: flex;
 flex-direction: column;
   }
+.promoitems{
+  width: 55%;
+  margin-bottom: 20px;
+}
+.promo{
+  margin-top: 300px;
+}
+.fullallpromo{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 }
